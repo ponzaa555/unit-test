@@ -34,5 +34,7 @@ export function merge(collection_1:number[],collection_2:number[]) : number[]{
         }
     }
 }
-const ans = merge([1,2,8],[5,6,7])
+const collection1 = [1,5,6,8,9]
+const collection2 = [1,6,7,10,15,20,30,80]
+const ans = merge(collection1,collection2)
 console.log(ans)
